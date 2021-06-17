@@ -1,0 +1,134 @@
+body {
+  background-color: #f0f0f0;
+}
+.container {
+  margin: 0 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  background-color: #fff;
+}
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: flex-start;
+}
+.header__logo {
+  margin: 20px;
+}
+.nav__list {
+  display: flex;
+  margin: 50px;
+}
+.nav__list-item {
+  padding: 0 20px;
+}
+.headerbelow {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+    border: 1px solid #005a87;
+    padding: 20px;
+    background-color: #005a87;;
+    color: white;
+    font-size: 25px;
+}
+.navigation__list {
+  display: flex;
+}
+.navigation__list-item {
+  padding: 20px;
+  margin: 0 5px;
+}
+.navigation__list-item--bg1 {
+    background-color: #16a085;
+    border: 1px solid #16a085;
+}
+.navigation__list-item--bg2 {
+    background-color: #27AE60;
+    border: 1px solid #27AE60;
+}
+.navigation__list-item--bg3 {
+    background-color: #7F8C8D;
+    border: 1px solid #7F8C8D;
+}
+.navigation__list-item--bg4 {
+    background-color: #2C3E50;
+    border: 1px solid #2C3E50;
+}   
+.navigation__list-item--bg5 {
+    background-color: #f7a53b;
+    border: 1px solid #f7a53b;
+}
+/* MAIN CONTENT */
+.nav__ul {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-auto-rows: 1fr;
+}
+.nav__ul-item {
+  min-height: 200px;
+  border: 2px solid blue;
+  background-color: teal;
+  text-align: center;
+}
+.nav__ul-item--lg {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.main {
+    margin: 30px 0;
+}
+/* SECTION */
+.section {
+  overflow-x: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.carousel-container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap:10px; 
+}
+.carousel-item {
+    width: 300px;
+    height: 290px;
+    background-color: black;
+}
+.carousel-item h2 {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.carousel-item p {
+    color: white;
+    font-size: 16px;
+    padding: 150px 10px;
+}
+.carousel-item hr {
+    height: 5px;
+    background-color: teal;
+}
+/* FOOTER */
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 70px
+}
+.footer__text {
+    padding-top: 30px;
+    padding-left: 35px;
+    color: white;
+}
+.footer__list {
+    display: flex;
+    padding: 30px 20px;
+    color: white;
+    padding-right: 300px;
+}
+.footer__list-item {
+    padding: 0 20px;
+}
